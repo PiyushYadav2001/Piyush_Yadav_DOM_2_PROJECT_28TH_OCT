@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: black;
+  
+}
+
+table, th, td {
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 70px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+thead {
+    background-color: #1a1a1a;
+  
+}
+
+/* tr:nth-child(even) {
+    background-color: blue;
+   
+} */
+
+.coin-name {
+    display: flex;
+    align-items: center;
+}
+
+.coin-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.symbol{
+        text-transform: uppercase; 
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+.list{
+    display: none;
+}
